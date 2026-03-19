@@ -1,0 +1,53 @@
+
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Montserrat',sans-serif;}
+body{background:#f8fbfc;color:#111;}
+
+header{background:#0b2c36;color:white;padding:15px 6%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:1000;}
+.logo{font-family:'Playfair Display',serif;font-size:1.6rem;letter-spacing:2px;}
+nav{display:flex;gap:25px;}
+nav a{color:white;text-decoration:none;opacity:.8;}
+nav a:hover{opacity:1;}
+.menu-btn{display:none;font-size:1.5rem;cursor:pointer;}
+
+.hero{min-height:85vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px;background:linear-gradient(120deg,#083c4a,#7ab2b2);color:white;}
+.hero h1{font-size:3rem;font-family:'Playfair Display',serif;}
+.hero p{margin-top:15px;max-width:600px;}
+
+.section{padding:70px 6%;}
+
+.luxury-box{background:white;border-radius:20px;padding:30px;box-shadow:0 10px 30px rgba(0,0,0,0.08);}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;}
+
+.fact{padding:20px;border-left:4px solid #0b2c36;background:#f1f7f8;border-radius:10px;}
+
+.news-card{background:white;border-radius:15px;padding:20px;box-shadow:0 8px 20px rgba(0,0,0,0.08);transition:.3s;}
+.news-card:hover{transform:translateY(-8px);}
+
+.banner{background:#0b2c36;color:white;text-align:center;padding:50px 20px;}
+
+footer{background:#06191f;color:#ddd;padding:50px 6%;}
+.footer-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;}
+.footer-grid div{min-width:0;}
+.footer-grid h4{margin-bottom:15px;font-size:1.1rem;color:white;}
+.footer-grid p{margin-bottom:8px;font-size:0.9rem;line-height:1.5;cursor:pointer;}
+.footer-grid p:hover{color:#fff;}
+.footer-bottom{text-align:center;margin-top:30px;font-size:.8rem;color:#888;border-top:1px solid rgba(255,255,255,0.1);padding-top:15px;}
+
+@media(max-width:900px){
+.footer-grid{grid-template-columns:repeat(2,1fr);}
+}
+
+@media(max-width:500px){
+.footer-grid{grid-template-columns:1fr;text-align:center;}
+}
+.footer-bottom{text-align:center;margin-top:20px;font-size:.8rem;color:#888;}
+
+.cart{position:fixed;top:20px;right:20px;background:white;padding:10px 15px;border-radius:20px;box-shadow:0 5px 15px rgba(0,0,0,0.2);font-weight:600;}
+
+@media(max-width:768px){
+nav{display:none;flex-direction:column;background:#0b2c36;position:absolute;top:60px;right:0;width:200px;padding:20px;}
+nav.active{display:flex;}
+.menu-btn{display:block;}
+.hero h1{font-size:2rem;}
+}
