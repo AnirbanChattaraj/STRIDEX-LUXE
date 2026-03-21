@@ -8,7 +8,7 @@ STRIDEX LUXE is a modern, responsive, and luxury-inspired footwear website desig
 
 * Fully responsive design 
 * Luxury typography and minimal UI
-* Interactive navigation menu (hamburger for mobile)
+* Interactive navigation menu 
 * Informational sections:
 
   * Shoe History
