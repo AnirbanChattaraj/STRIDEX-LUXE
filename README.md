@@ -1,10 +1,10 @@
 # STRIDEX LUXE – Premium Footwear Web Experience
 
-## Overview
+## Overview:
 
 STRIDEX LUXE is a modern, responsive, and luxury-inspired footwear website designed using HTML, CSS, and JavaScript. The project focuses on delivering a clean, high-end user interface while providing engaging informational content about footwear history, facts, and industry trends.
 
-## Features
+## Features:
 
 * Fully responsive design 
 * Luxury typography and minimal UI
